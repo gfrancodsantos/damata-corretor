@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 75.52%, rgba(196, 196, 196, 0.29) 100%);
+    list-style: none;
+    width: 100%;
+    height: 6rem;
+    overflow: hidden;
+}
+
+#main img {
+    margin-top: -2rem;
+    margin-left: 24.5rem;
+    width: 160px;
+    cursor: pointer;
+}
+
+#main ul {
+    margin-right: 28.5rem;
+}
+
+#main ul li {
+    display: inline;
+    float: right;
+    width: 80px;
+    height: 5px;
+    margin-top: 2.5rem;
+    align-items: center;
+}
+
+
+#main ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #0C1541;
+    font-family: RobotoFlex;
+    font-size: 0.9rem;
+}
+
+#main ul li a:hover {
+    color: rgb(122, 112, 82);
+}
+
+#space {
+    margin-right: 0.7rem;
+}
+
+@font-face {
+    font-family: RobotoFlex;
+    src: url('./fonts/RobotoFlex[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght].ttf');
+}
+
+section{
+    margin-top: -6rem;
+}
+
+.FixoNoTopo {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+}
+
+.highlights {
+    margin-left: 54.5rem;
+    margin-top: 15rem;
+}
+
+.highlights p {
+    font-size: 20px;
+    color: rgba(52, 37, 77, 1);
+    font-family: cairo-bold;
+}
+
+.contact-wrrapper form {
+    margin-left: 50rem;
+    margin-top: 20rem;
+}
+
+@font-face {
+    font-family: cairo-bold;
+    src: url('./fonts/cairo-bold.ttf');
+}
+
+@font-face {
+    font-family: BeVietnamPro-Bold;
+    src: url(./fonts/BeVietnamPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoMono-VariableFont;
+    src: url(./fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+.contact-1 p {
+    display: flex;
+    font-size: 20px;
+    color: rgba(52, 37, 77, 1);
+    align-items: center;
+    justify-content: center;
+    margin-top: 30rem;
+    font-family: cairo-bold;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-right: 0.5rem;
+    
+}
+
+.fa-facebook-f {
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: #878685;
+}
+
+.fa-whatsapp {
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: #878685;
+}
+
+.fa-envelope {
+    font-size: 2rem;
+    color: #878685;
+}
+
+.base {
+    background: #191525;
+    margin-top: 8rem;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+}
+
+@font-face {
+    font-family: Cairo-VariableFont_wght;
+    src: url(./fonts/Cairo-VariableFont_wght.ttf);
+}
+
+#copyright {
+    margin-left: 7.5rem;
+    margin-top: 0.8rem;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    font-family: Cairo-VariableFont_wght;
+}
+
+#by {
+    margin-top: 0.8rem;
+}
+
+#by a {
+    margin-left: 75rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: Cairo-VariableFont_wght;
+}

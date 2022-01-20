@@ -1,33 +1,22 @@
-var balls = document.querySelector('.balls')
-var quant = document.querySelectorAll('.slides .image')
-var atual = 0
-var imagem = document.getElementById('next')
-var voltar = document.getElementById('voltar')
+Processos:
 
-for (let i = 0; i < quant.length; ) {
-    var div = document.createElement('div')
-    div.id = i
-    balls.appendChild(div)
-}
-document.getElementById('0').classList.add('imgAtual')
+Desenvolvimento visual no FIGMA - 100% Completed
 
-var pos = document.querySelectorAll('.balls div')
+Página - #1Home - 98% completed
 
-for (let i = 0; i < pos.length; ) {
-    pos[i].addEventListener('click', () => {
-        atual = pos[i].id
-        slide()
-    })
-}
+Página - #2Sobre - 10% completed
 
-function slide() {
-    if (atual >= quant.length) {
-        atual = 0
-    }
-    else if (atual < 0) {
-        atual = quant.length - 1
-    }
-    document.querySelector('.imgAtual').classList.remove('.imgAtual')
-    imagem.style.marginLeft = -10000*atual+'px'
-    document.getElementById(atual).classList.add('imgAtual')
-}
+Página - #3Venda - 0% completed
+
+Página - #4Locação - 0% completed
+
+Página - #5Contato - 0% completed
+
+
+
+
+Tarefas importantes ->
+1 - Renomear nome das imagens
+3 - Melhorar a qualidade das imagens
+3 - Ajustes no JS (balls)
+4 - 

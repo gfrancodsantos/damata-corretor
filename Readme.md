@@ -20,3 +20,8 @@ Tarefas importantes ->
 3 - Melhorar a qualidade das imagens
 3 - Ajustes no JS (balls)
 4 - 
+
+ margin-left: 32.5rem;
+
+         margin-left: 1rem;
+        margin-left: 12.3rem;

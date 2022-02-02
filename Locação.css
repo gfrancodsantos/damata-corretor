@@ -433,7 +433,7 @@ section{
     }
 
     .button-sales {
-        margin-left: 24rem;
+        margin-left: 23rem;
     }
 }
 @media (max-width: 1440px){
@@ -525,6 +525,7 @@ section{
     #by a {
         margin-left: 40rem;
     }
+    
 }
 
 @media (max-width: 1024px){

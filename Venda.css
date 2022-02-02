@@ -1142,8 +1142,12 @@ margin-top: 15rem;
         max-width: 412px;
     }
 
+    #btn-mobile {
+        margin-left: 21rem;
+    }
+
     .container-all{
-        margin-left: -41rem;
+        margin-left: -40.7rem;
     }
 
     #img22 {
@@ -1157,7 +1161,7 @@ margin-top: 15rem;
     }
 
     .button-sales {
-        margin-left: 7.8rem;
+        margin-left: 7.3rem;
     }
 }
 
@@ -1167,7 +1171,7 @@ margin-top: 15rem;
     }
 
     .container-all{
-        margin-left: -41rem;
+        margin-left: -40.79rem;
     }
 
     #img22 {
@@ -1181,7 +1185,17 @@ margin-top: 15rem;
     }
 
     .button-sales {
-        margin-left: 7.4rem;
+        margin-left: 7.2rem;
+    }
+}
+
+@media (max-width: 393px){
+
+    .highlights p {
+        margin-left: -3.5rem;
+    }
+    .container-all {
+        margin-left: -41.3rem;
     }
 }
 
@@ -1366,5 +1380,24 @@ margin-top: 15rem;
     #by a {
         margin-left: 0rem;
         font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 360px){
+
+    .highlights p{
+        margin-left: -3.5rem;
+    }
+
+    #btn-mobile {
+        margin-left: 18.5rem;
+    }
+
+    .container-all{
+        margin-left: -42.4rem;
+    }
+
+    .button-sales {
+        margin-left: 6.75rem;
     }
 }

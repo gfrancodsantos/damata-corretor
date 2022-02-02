@@ -433,7 +433,7 @@ section{
     }
 
     .button-sales {
-        margin-left: 23rem;
+        margin-left: 22.9rem;
     }
 }
 @media (max-width: 1440px){
@@ -1218,8 +1218,12 @@ section{
         max-width: 412px;
     }
 
+    #btn-mobile {
+        margin-left: 21.5rem;
+    }
+
     .container-all{
-        margin-left: -41rem;
+        margin-left: -40.7rem;
     }
 
     #img22 {
@@ -1242,8 +1246,12 @@ section{
         max-width: 412px;
     }
 
+    #btn-mobile {
+        margin-left: 21rem;
+    }
+
     .container-all{
-        margin-left: -41rem;
+        margin-left: -40.7rem;
     }
 
     #img22 {
@@ -1251,6 +1259,7 @@ section{
         height: 240px;
         margin-left: 36.8rem;
     }
+
 
     #about {
         margin-left: 49rem;
@@ -1262,8 +1271,21 @@ section{
 }
 
 @media (max-width: 393px){
+
+    #btn-mobile {
+        margin-left: 20.5rem;
+    }
+
+    .highlights p {
+        margin-left: -4rem;
+    }
+
+    .container-all {
+        margin-left: -41.3rem;
+    }
+
     .button-sales {
-        margin-left: 6.8rem;
+        margin-left: 7.2rem;
     }
 }
 
@@ -1277,14 +1299,14 @@ section{
     }
 
     .container-all {
-        margin-left: -41.8rem;
+        margin-left: -41.7rem;
         margin-top: -8rem;
     }
 
     #btn-mobile {
         position: absolute;
         display: block;
-        margin-left: 20rem;
+        margin-left: 19.2rem;
         width: 5rem;
         justify-content: center;
         align-items: center;
@@ -1463,8 +1485,16 @@ section{
 
     @media (max-width: 360px){
 
+        #btn-mobile {
+            margin-left: 18.5rem;
+        }
+
+        .container-all {
+            margin-left: -42.1rem;
+        }
+
         .button-sales {
-            margin-left: 6rem;
+            margin-left: 6.2rem;
     }
 }
 

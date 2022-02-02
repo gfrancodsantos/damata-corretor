@@ -433,7 +433,7 @@ section{
     }
 
     .button-sales {
-        margin-left: 23rem;
+        margin-left: 24rem;
     }
 }
 @media (max-width: 1440px){
@@ -651,6 +651,10 @@ section{
     
     .contact-1 p {
         margin-top: 10rem;
+    }
+
+    .button-sales {
+        margin-left: 23.3rem;
     }
 
     .base {
@@ -1208,6 +1212,30 @@ section{
     }
 }
 
+@media (max-width: 414px){
+    * {
+        max-width: 412px;
+    }
+
+    .container-all{
+        margin-left: -41rem;
+    }
+
+    #img22 {
+        width: 500px;
+        height: 240px;
+        margin-left: 36.8rem;
+    }
+
+    #about {
+        margin-left: 49rem;
+    }
+
+    .button-sales {
+        margin-left: 7.2rem;
+    }
+}
+
 @media (max-width: 412px){
     * {
         max-width: 412px;
@@ -1225,6 +1253,16 @@ section{
 
     #about {
         margin-left: 49rem;
+    }
+
+    .button-sales {
+        margin-left: 7.4rem;
+    }
+}
+
+@media (max-width: 393px){
+    .button-sales {
+        margin-left: 6.8rem;
     }
 }
 
@@ -1373,7 +1411,7 @@ section{
 }
 
    .button-sales {
-        margin-left: 7.2rem;
+        margin-left: 6.3rem;
    }
 
     .contact-1 p {
@@ -1420,6 +1458,12 @@ section{
     #by a {
         margin-left: 0rem;
         font-size: 0.6rem;
+    }
+
+    @media (max-width: 360px){
+
+        .button-sales {
+            margin-left: 6rem;
     }
 }
 

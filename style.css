@@ -424,18 +424,18 @@ a {
 
 @media (max-width: 1900px){
     .container-all {
-        margin-left: 2.7rem;
+        margin-left: 0.7rem;
     }
 
     #main ul img {
-        margin-left: 28rem;
+        margin-left: 26rem;
         margin-top: 5rem;
         width: 130px;
     }
 
     #main ul li a {
         font-size: 0.80rem;
-        margin-left: 69rem;
+        margin-left: 67rem;
     }
 
     #main ul li {

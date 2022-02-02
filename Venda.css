@@ -1139,7 +1139,7 @@ margin-top: 15rem;
 
 @media (max-width: 414px){
     * {
-        max-width: 412px;
+        max-width: 414px;
     }
 
     #btn-mobile {
@@ -1147,7 +1147,7 @@ margin-top: 15rem;
     }
 
     .container-all{
-        margin-left: -41rem;
+        margin-left: -40.4rem;
     }
 
     #img22 {
@@ -1171,7 +1171,7 @@ margin-top: 15rem;
     }
 
     .container-all{
-        margin-left: -40rem;
+        margin-left: -40.4rem;
     }
 
     #img22 {

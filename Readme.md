@@ -16,7 +16,8 @@ Página - #5Contato - 100% completed
 
 
 Tarefas importantes ->
-1 - Renomear nome das imagens
+1 - Renomear nome das imagens//
 3 - Melhorar a qualidade das imagens
 3 - Ajustes no JS (balls)
-4 - 
+4 - Colocar o texto no "about"
+5 - reduzir background-gradient do "about"

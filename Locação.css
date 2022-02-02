@@ -441,7 +441,7 @@ section{
         overflow-x: hidden;
     }
     .container-all {
-        margin-left: -13rem;
+        margin-left: -12rem;
     }
     
     #main ul img {
@@ -538,7 +538,7 @@ section{
     }
 
     .container-all {
-        margin-left: -25.5rem;
+        margin-left: -24.9rem;
     }
 
     #btn-mobile {
@@ -681,7 +681,7 @@ section{
     }
 
     .container-all {
-        margin-left: -33rem;
+        margin-left: -32.7rem;
         margin-top: -5rem;
     }
 
@@ -902,7 +902,7 @@ section{
     }
 
     .container-all {
-        margin-left: -34.5rem;
+        margin-left: -34rem;
     }
 
     #copyright {
@@ -927,7 +927,7 @@ section{
      }
 
     .container-all {
-        margin-left: -40.5rem;
+        margin-left: -39.9rem;
         margin-top: -8rem;
     }
 
@@ -1299,7 +1299,7 @@ section{
     }
 
     .container-all {
-        margin-left: -41.7rem;
+        margin-left: -41.2rem;
         margin-top: -8rem;
     }
 
@@ -1495,6 +1495,16 @@ section{
 
         .button-sales {
             margin-left: 6.2rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+    #btn-mobile {
+        margin-left: 17.3rem;
+    }
+    .container-all {
+        margin-left: -43rem;
     }
 }
 

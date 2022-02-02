@@ -411,7 +411,7 @@ margin-top: 15rem;
         overflow-x: hidden;
     }
     .container-all {
-        margin-left: -12.5rem;
+        margin-left: -11.8rem;
     }
     
     #main ul img {
@@ -507,7 +507,7 @@ margin-top: 15rem;
     }
 
     .container-all {
-        margin-left: -25.5rem;
+        margin-left: -24.8rem;
     }
 
     #btn-mobile {
@@ -656,7 +656,7 @@ margin-top: 15rem;
     }
 
     .container-all {
-        margin-left: -33rem;
+        margin-left: -32.8rem;
         margin-top: -5rem;
     }
 
@@ -864,7 +864,7 @@ margin-top: 15rem;
      }
 
     .container-all {
-        margin-left: -40rem;
+        margin-left: -39.95rem;
         margin-top: -6rem;
     }
 
@@ -1209,7 +1209,7 @@ margin-top: 15rem;
     }
 
     .container-all {
-        margin-left: -41.8rem;
+        margin-left: -41.4rem;
         margin-top: -8rem;
     }
 
@@ -1401,3 +1401,12 @@ margin-top: 15rem;
         margin-left: 6.75rem;
     }
 }
+
+@media (max-width: 320px) {
+
+    #btn-mobile {
+        margin-left: 17.3rem;
+    }
+    .container-all {
+        margin-left: -43rem;
+    }

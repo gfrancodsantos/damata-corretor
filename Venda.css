@@ -1142,6 +1142,10 @@ margin-top: 15rem;
         max-width: 414px;
     }
 
+    .highlights p {
+        margin-left: -3.4rem;
+    }
+
     #btn-mobile {
         margin-left: 21rem;
     }
@@ -1172,6 +1176,10 @@ margin-top: 15rem;
 
     .container-all{
         margin-left: -40.4rem;
+    }
+
+    .highlights p {
+        margin-left: -3.4rem;
     }
 
     #img22 {

@@ -159,7 +159,7 @@ margin-top: 15rem;
 }
 
 #localization {
-    margin-left: 3.2rem;
+    margin-left: 3.3rem;
     margin-top: 4px;
     color: #6C6C6C;
     font-size: 14px;
@@ -473,6 +473,13 @@ margin-top: 15rem;
         margin-top: -7rem;
     }
 
+    #localization {
+        margin-left: 3.3rem;
+        margin-top: 4px;
+        color: #6C6C6C;
+        font-size: 14px;
+    }
+
     #copyright {
         margin-left: 8rem;
     }
@@ -777,6 +784,13 @@ margin-top: 15rem;
         margin-top: 15rem;
     }
 
+    #localization {
+        margin-left: 3.3rem;
+        margin-top: 4px;
+        color: #6C6C6C;
+        font-size: 14px;
+    }
+
     .base {
         width: 100%;
     }
@@ -807,6 +821,13 @@ margin-top: 15rem;
 
     .container-all {
         margin-left: -34.5rem;
+    }
+
+    #localization {
+        margin-left: 3.33rem;
+        margin-top: 4px;
+        color: #6C6C6C;
+        font-size: 14px;
     }
 
     #copyright {
@@ -1014,8 +1035,8 @@ margin-top: 15rem;
     font-size: 15.5px;
     }
 
-    #localization {
-        margin-left: 2rem;
+     #localization {
+        margin-left: 1.95rem;
         font-size: 12px;
     }
 

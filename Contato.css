@@ -1240,7 +1240,7 @@ form p {
     }
 
     .call-me p {
-        margin-left: -27rem;    
+        margin-left: -26.6rem;    
         text-align: center;
     }
 
@@ -1341,16 +1341,16 @@ form p {
         right: 14rem;
      }
 
-    .container-all{
-        margin-left: -41rem;
+    .containerall{
+        margin-left: -0.3rem;
     }
 
     .highlights p {
-        margin-left: -45rem;
+        margin-left: -44.5rem;
     }
 
     .call-me p {
-        margin-left: -27.2rem;
+        margin-left: -26.6rem;
     }
 
     .contact-1 p {
@@ -1496,7 +1496,7 @@ form p {
     }
 
     .highlights p {
-        margin-left: -46rem;
+        margin-left: -45.8rem;
     }
 
     .section-contact {
@@ -1527,6 +1527,10 @@ form p {
     .fa-envelope {
         font-size: 1rem;
         color: #878685;
+    }
+
+    .call-me p {
+        margin-left: -26.7rem;
     }
 
     .base {

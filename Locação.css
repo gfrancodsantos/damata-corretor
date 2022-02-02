@@ -184,7 +184,7 @@ section{
 }
 
 #localization {
-    margin-left: 3.2rem;
+    margin-left: 3.3rem;
     margin-top: 4px;
     color: #6C6C6C;
     font-size: 14px;
@@ -431,6 +431,10 @@ section{
         margin-top: -7rem;
         margin-right: 27rem;
     }
+
+    .button-sales {
+        margin-left: 23rem;
+    }
 }
 @media (max-width: 1440px){
     html, body {
@@ -468,6 +472,10 @@ section{
     #by a {
         margin-left: 50rem;
     }
+
+    .button-sales {
+        margin-left: 23.5rem;
+    }
 }
 @media (max-width: 1280px){
     *{
@@ -501,6 +509,13 @@ section{
 
     #main ul {
         margin-top: -7rem;
+    }
+
+    #localization {
+        margin-left: 3.3rem;
+        margin-top: 4px;
+        color: #6C6C6C;
+        font-size: 14px;
     }
 
     #copyright {
@@ -828,6 +843,13 @@ section{
         margin-top: 15rem;
     }
 
+    #localization {
+        margin-left: 3.3rem;
+        margin-top: 4px;
+        color: #6C6C6C;
+        font-size: 14px;
+    }
+
     .base {
         width: 100%;
     }
@@ -865,6 +887,13 @@ section{
 
     .base {
         width: 100%;
+    }
+
+    #localization {
+        margin-left: 3.33rem;
+        margin-top: 4px;
+        color: #6C6C6C;
+        font-size: 14px;
     }
 
     .container-all {
@@ -1090,7 +1119,7 @@ section{
     }
 
     #localization {
-        margin-left: 2rem;
+        margin-left: 1.95rem;
         font-size: 12px;
     }
 

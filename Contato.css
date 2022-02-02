@@ -191,11 +191,11 @@ form p {
 
 @font-face {
     font-family: ChakraPetch-Medium;
-    src: url(/fonts/ChakraPetch-Medium.ttf);
+    src: url(./fonts/ChakraPetch-Medium.ttf);
 }
 @font-face {
     font-family: cairo-bold;
-    src: url('./fonts/cairo-bold.ttf');
+    src: url(./fonts/cairo-bold.ttf);
 }
 
 @font-face {

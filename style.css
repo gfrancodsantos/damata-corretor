@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+}
 
 #main {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 75.52%, rgba(196, 196, 196, 0.29) 100%);
@@ -361,6 +364,10 @@ a {
 
 @media (max-width: 2560px){
 
+    html, body {
+        overflow-x: hidden;
+    }
+
     .container-all {
         margin-left: 23rem;
     }
@@ -395,6 +402,10 @@ a {
 }
 
 @media (max-width: 1920px){
+    html, body {
+        overflow-x: hidden;
+    }
+
     .container-all {
         margin-left: 3rem;
     }
@@ -423,6 +434,10 @@ a {
 }
 
 @media (max-width: 1900px){
+    html, body {
+        overflow-x: hidden;
+    }
+
     .container-all {
         margin-left: 0.7rem;
     }
@@ -448,6 +463,49 @@ a {
         margin-right: 27rem;
     }
 }
+
+@media (max-width: 1680px){
+    .container-all {
+        margin-left: -4.5rem;
+    }
+
+    #main ul img {
+        margin-left: 20.5rem;
+        margin-top: 5rem;
+        width: 130px;
+    }
+
+    #main ul li a {
+        font-size: 0.80rem;
+        margin-left: 62.3rem;
+    }
+}
+
+@media (max-width: 1600px){
+    .container-all {
+        margin-left: -7rem;
+    }
+
+    #main ul img {
+        margin-left: 18.2rem;
+        margin-top: 5rem;
+        width: 130px;
+    }
+
+    #main ul li a {
+        font-size: 0.80rem;
+        margin-left: 59.5rem;
+    }
+
+    #copyright {
+        margin-left: 10rem;
+    }
+
+    #by a {
+        margin-left: 54rem;
+    }
+}
+
 @media (max-width: 1440px){
     html, body {
         overflow-x: hidden;
@@ -488,6 +546,10 @@ a {
 @media (max-width: 1280px){
     *{
         max-width: 1280px;
+    }
+
+    html, body {
+        overflow-x: hidden;
     }
 
     .container-all {
@@ -709,6 +771,11 @@ a {
         margin-top: -1rem;
     }
 
+    #subtitle {
+        width: 50rem;
+        margin-left: 48rem;
+    }
+
     .up {
         width: 800px;
         margin-left: 32rem;
@@ -735,6 +802,47 @@ a {
     }
 }
 
+@media (max-width: 800px){
+    #btn-mobile {
+        margin-left: 44rem;
+    }
+
+    #main ul img {
+        margin-left: 1rem;
+        margin-top: 6rem;
+        width: 130px;
+    }
+
+    #menu1 {
+        display: none;
+        position: absolute;
+        width: 51%;
+        height: 100vh;
+        top: 5rem;
+        right: 0px;    
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-all {
+        margin-left: -33.2rem;
+    }
+
+    .base {
+        width: 100%;
+    }
+
+    #copyright {
+        margin-left: 2rem;
+        font-size: 0.7rem;
+    }
+
+    #by a {
+        margin-left: 23rem;
+        font-size: 0.7rem;
+    }
+}
+
 @media (max-width: 768px){
     * {
         max-width: 768px;
@@ -751,7 +859,7 @@ a {
     #btn-mobile {
         position: absolute;
         display: block;
-        margin-left: 36rem;
+        margin-left: 36.4rem;
         width: 5rem;
         justify-content: center;
         align-items: center;
@@ -845,7 +953,7 @@ a {
      }
 
     #main ul img {
-        margin-left: 7.3rem;
+        margin-left: 7.5rem;
         margin-top: 6rem;
         width: 130px;
     }
@@ -985,8 +1093,32 @@ a {
 }
 
 @media (max-width: 720px){
-    * {
-        max-width: 720px;
+    .container-all{
+        margin-left: -34.7rem;
+    }
+
+    #btn-mobile {
+        margin-left: 35rem;
+    }
+
+    #main ul img {
+        margin-left: 5.5rem;
+        margin-top: 6rem;
+        width: 130px;
+    }
+
+    .balls {
+        margin-top: -13rem;
+        display: flex;
+        margin-left: -8rem;
+    }
+
+    #title {
+        margin-left: 54rem;
+    }
+
+    #subtitle {
+        margin-left: 47rem;
     }
 
     .base {
@@ -995,14 +1127,77 @@ a {
 
     #copyright {
         margin-left: 2rem;
-        font-size: 0.65rem;
+        font-size: 0.7rem;
     }
 
     #by a {
-        margin-left: 21rem;
-        font-size: 0.65rem;
+        margin-left: 19.5rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 600px){
+    #btn-mobile {
+        margin-left: 31.2rem;
     }
 
+    #main ul img {
+        margin-left: 2rem;
+        margin-top: 6rem;
+        width: 130px;
+    }
+
+    .container-all {
+        margin-left: -38.4rem;
+    }
+
+    #menu1 {
+        display: none;
+        position: absolute;
+        width: 55%;
+        height: 100vh;
+        top: 5rem;
+        right: 0px;    
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+        right: 11rem;
+     }
+  
+     #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+        right: 11rem;
+     }
+
+    .balls {
+        margin-left: -8.5rem;
+    }
+
+    #title {
+        margin-left: 54rem;
+    }
+
+    #subtitle {
+        margin-left: 47rem;
+    }
+
+    .base {
+        width: 100%;
+    }
+
+    #copyright {
+        margin-left: 2rem;
+        font-size: 0.7rem;
+    }
+
+    #by a {
+        margin-left: 12rem;
+        font-size: 0.7rem;
+    }
 }
 
 @media (max-width: 425px){
@@ -1012,16 +1207,16 @@ a {
 
     html, body {
         overflow-x: hidden;
-     }
+    }
 
     .container-all {
-        margin-left: -40.3rem;
+        margin-left: -40.25rem;
     }
 
     #btn-mobile {
         position: absolute;
         display: block;
-        margin-left: 22rem;
+        margin-left: 20rem;
         width: 5rem;
         justify-content: center;
         align-items: center;
@@ -1066,13 +1261,13 @@ a {
   
      #nav.active #hamburger::before {
         transform: rotate(135deg);
-        right: 10rem;
+        right: 12rem;
      }
   
      #nav.active #hamburger::after {
         transform: rotate(-135deg);
         top: -7px;
-        right: 10rem;
+        right: 12rem;
      }
 
      #main {
@@ -1083,7 +1278,7 @@ a {
     #menu1 {
         display: none;
         position: absolute;
-        width: 60%;
+        width: 80%;
         height: 100vh;
         top: 5rem;
         right: 0px;    
@@ -1105,7 +1300,7 @@ a {
   
      #nav.active #menu1 {
         display: flex;
-        margin-right: 0rem;
+        margin-right: -2rem;
         background-color: #ffffff;
         box-shadow: -10px 0px 30px -15px;
         z-index: 150;
@@ -1121,7 +1316,7 @@ a {
     }
 
     #main ul li a {
-        margin-left: -1rem;
+        margin-left: -0.5rem;
     }
 
     .slide {
@@ -1152,13 +1347,13 @@ a {
     }
 
     .balls {
-        margin-top: -15rem;
+        margin-top: -16rem;
         display: flex;
         margin-left: -19.5rem;
     }
 
     .profile {
-        margin-top: 5rem;
+        margin-top: 3rem;
         width: 380px;
         margin-left: 41.2rem;
     }
@@ -1167,20 +1362,21 @@ a {
         width: auto;
         height: 9rem;
         margin-left: 1rem;
-        margin-top: 5rem;
+        margin-top: 4rem;
     }
 
     .legend p {
-        font-size: 0.7rem;
-        margin-left: -5.3rem;
+        font-size: 0.6rem;
+        margin-left: -4.8rem;
         width: 10rem;   
         display: flex;
         padding-top: 0.8rem;
+        display: no;
     }
 
     .fonts {
         margin-left: 10rem;
-        margin-top: -9rem;
+        margin-top: -8rem;
     }
 
     .fonts p {
@@ -1197,15 +1393,15 @@ a {
 
     #title {
         margin-top: -2rem;
-        margin-left: 52rem;
+        margin-left: 51.3rem;
         font-size: 15px;
     }
 
     #subtitle {
         font-size: 10px;
-        margin-left: 47rem;
-        margin-top: 0.5rem;
+        margin-left: 46.5rem;
         width: 30rem;
+        margin-top: 0.5rem;
     }
 
     .up {
@@ -1229,11 +1425,11 @@ a {
     }
 
     .button1 p {
-    font-size: 0.5rem;
+        font-size: 0.5rem;
     }
 
     .button2 p {
-    font-size: 0.5rem;
+        font-size: 0.5rem;
     }
 
     .button2 {
@@ -1271,16 +1467,16 @@ a {
 
     .base {
         width: 100%;
-        height: 4rem;
+        height: 3.5rem;
         display: inline-block;
         text-align: center;
-        margin-top: 12.5rem;
+        margin-top: 12.9rem;
     }
 
     #copyright {
         margin-left: 0rem;
         font-size: 0.7rem;
-        margin-top: 1.2rem;
+        margin-top: 1rem;
         line-height: 1px;
     }
 
@@ -1290,9 +1486,300 @@ a {
     }
 }
 
+@media (max-width: 414px){
+   * {
+        max-width: 414px;
+    }
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .container-all {
+        margin-left: -40.6rem;
+    }
+
+    #btn-mobile {
+        position: absolute;
+        display: block;
+        margin-left: 20rem;
+        width: 5rem;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+
+    #btn-mobile {
+        display: flex;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        position: fixed;
+        z-index: 180;
+        width: 2rem;
+        margin-top: 3.1rem;
+    }
+
+    #hamburger {
+        width: 20px;
+        border-top: 2px solid;
+        color: rgb(104, 112, 143);
+        cursor: pointer;
+        z-index: 180;
+    }
+
+    #hamburger::after, #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+     }
+  
+     #nav.active #hamburger::before {
+        transform: rotate(135deg);
+        right: 12rem;
+     }
+  
+     #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+        right: 12rem;
+     }
+
+     #main {
+         width: 100%;
+         display: flex;
+     }
+
+    #menu1 {
+        display: none;
+        position: absolute;
+        width: 80%;
+        height: 100vh;
+        top: 5rem;
+        right: 0px;    
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menu1 li a {
+        font-size: 1.1rem;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+        margin-top: 5rem;
+        text-decoration: none;
+       }
+
+
+  
+     #nav.active #menu1 {
+        display: flex;
+        margin-right: -2rem;
+        background-color: #ffffff;
+        box-shadow: -10px 0px 30px -15px;
+        z-index: 150;
+        position: fixed;
+        height: 100%;
+        margin-top: -5rem;  
+     }
+
+    #main ul img {
+        margin-left: 0.5rem;
+        margin-top: 6.8rem;
+        width: 110px;
+    }
+
+    #main ul li a {
+        margin-left: -0.5rem;
+    }
+
+    .slide {
+        display: flex;
+        overflow: hidden;
+        width: 380px;
+        height: 200px;
+        margin-left: 41.5rem;
+        transition: all 0.4s;
+    }
+
+    .slides {
+        width: 380px;
+        height: 200px;
+        display: flex;
+    }
+
+    #atual img {
+        width: 380px;
+        height: 200px;
+        margin-left: 0rem;
+    }
+
+    .image img {
+        width: 380px;
+        height: 200px;
+        margin-left: 39rem;
+    }
+
+    .balls {
+        margin-top: -16rem;
+        display: flex;
+        margin-left: -19.5rem;
+    }
+
+    .profile {
+        margin-top: 3rem;
+        width: 380px;
+        margin-left: 41.2rem;
+    }
+
+    section img {
+        width: auto;
+        height: 9rem;
+        margin-left: 1rem;
+        margin-top: 4rem;
+    }
+
+    .legend p {
+        font-size: 0.6rem;
+        margin-left: -4.8rem;
+        width: 10rem;   
+        display: flex;
+        padding-top: 0.8rem;
+        display: no;
+    }
+
+    .fonts {
+        margin-left: 10rem;
+        margin-top: -8rem;
+    }
+
+    .fonts p {
+        font-size: 0.6rem;
+    }
+
+    #font1 {
+        font-size: 0.8rem;
+    }
+
+    #font2 {
+        font-size: 0.8rem;
+    }
+
+    #title {
+        margin-top: -2rem;
+        margin-left: 51.3rem;
+        font-size: 15px;
+    }
+
+    #subtitle {
+        font-size: 10px;
+        margin-left: 46.5rem;
+        width: 30rem;
+        margin-top: 0.5rem;
+    }
+
+    .up {
+        width: 380px;
+        margin-left: 41.2rem;
+        margin-top: -10rem;
+    }
+
+    .up img {
+        margin-left: 1.5rem;
+        width: auto;
+        height: 115px;
+        margin-top: 12rem;
+    }
+
+    .button1 {
+        margin-top: 20rem;
+        margin-left: -18.5rem;
+        width: 5rem;
+        height: 0.5rem;
+    }
+
+    .button1 p {
+        font-size: 0.5rem;
+    }
+
+    .button2 p {
+        font-size: 0.5rem;
+    }
+
+    .button2 {
+        margin-top: 20rem;
+        margin-left: -7.5rem;
+        width: 5rem;
+        height: 0.5rem;
+    }
+
+    .contact-1 p {
+        margin-top: -22rem;
+        font-size: 15px;
+    }
+
+    .contact {
+        margin-top: 3rem;
+    }
+
+    .fa-facebook-f {
+        font-size: 1rem;
+        margin-right: 2rem;
+        color: #878685;
+    }
+    
+    .fa-whatsapp {
+        font-size: 1rem;
+        margin-right: 2rem;
+        color: #878685;
+    }
+    
+    .fa-envelope {
+        font-size: 1rem;
+        color: #878685;
+    }
+
+    .base {
+        width: 100%;
+        height: 3.5rem;
+        display: inline-block;
+        text-align: center;
+        margin-top: 12.9rem;
+    }
+
+    #copyright {
+        margin-left: 0rem;
+        font-size: 0.7rem;
+        margin-top: 1rem;
+        line-height: 1px;
+    }
+
+    #by a {
+        margin-left: 0rem;
+        font-size: 0.6rem;
+    }
+}
+
+
 @media (max-width: 412px){
     * {
         max-width: 412px;
+    }
+
+    html, body {
+        overflow-x: hidden;
     }
 
     .container-all{
@@ -1301,6 +1788,28 @@ a {
 
     #title {
         margin-left: 51.2rem;
+    }
+}
+
+@media (max-width: 393px){
+    .container-all{
+        margin-left: -41.1rem;
+    }
+
+    .slide {
+        margin-left: 41rem;
+    }
+
+    .image img {
+        width: 380px;
+        height: 200px;
+        margin-left: 39.1rem;
+    }
+
+    #atual img {
+        width: 380px;
+        height: 200px;
+        margin-left: 0.1rem;
     }
 }
 
@@ -1589,3 +2098,184 @@ a {
         font-size: 0.6rem;
     }
 }
+
+@media (max-width: 360px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .up img {
+        margin-left: 1.35rem;
+    }
+}
+
+
+@media (max-width: 320px) {
+    * {
+        max-width: 320px;
+    }
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    #btn-mobile {
+        margin-left: -10rem;
+    }
+
+    #main ul img {
+        margin-left: 0rem;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+        right: 12rem;
+     }
+  
+     #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+        right: 12rem;
+     }
+
+     #menu1 {
+        display: none;
+        position: absolute;
+        width: 90%;
+        height: 100vh;
+        top: 5rem;
+        right: 0px;    
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .slide {
+        display: flex;
+        overflow: hidden;
+        width: 350px;
+        height: 180px;
+        margin-left: 42rem;
+        transition: all 0.4s;
+    }
+
+    .slides {
+        width: 350px;
+        height: 180px;
+        display: flex;
+    }
+
+    #atual img {
+        width: 350px;
+        height: 180px;
+        margin-left: -0.1rem;
+    }
+
+    .image img {
+        width: 350px;
+        height: 180px;
+        margin-left: 42.45rem;
+    }
+
+    .balls {
+        margin-top: -13rem;
+        display: flex;
+        margin-left: -16rem;
+    }
+
+    .profile {
+        margin-top: 3rem;
+        width: 300px;
+        margin-left: 42.5rem;
+    }
+
+    section img {
+        width: auto;
+        height: 8rem;
+        margin-left: 0.5rem;
+        margin-top: 4rem;
+    }
+
+    .legend p {
+        font-size: 0.5rem;
+        margin-left: -5.5rem;
+        width: 20rem;   
+        display: flex;
+        padding-top: 1rem;
+        display: no;
+    }
+
+    .fonts {
+        margin-left: 9rem;
+        margin-top: -6rem;
+    }
+
+    .fonts p {
+        font-size: 0.5rem;
+        line-height: 15px;
+    }
+    
+    #font1 {
+        font-size: 0.6rem;
+        line-height: 1.5rem;
+    }
+
+    #font2 {
+        margin-top: -1rem;
+    }
+
+    #title {
+        margin-left: 50.4rem;
+    }
+
+    #subtitle {
+        width: 50rem;
+        font-size: 8px;
+        margin-left: 47rem;
+    }
+
+    .up {
+        width: 300px;
+        margin-left: 42.5rem;
+
+    }
+    
+    .up img {
+        margin-left: 2rem;
+        width: auto;
+        height: 80px;
+    }
+
+    .button1 {
+        margin-left: -12rem;
+        width: 3rem;
+        height: 0.5rem;
+        margin-top: 18rem;
+    }
+
+    .button1 p {
+        font-size: 0.35rem;
+    }
+
+    .button2 p {
+        font-size: 0.35rem;
+    }
+
+    .button2 {
+        margin-left: -4.8rem;
+        width: 3rem;
+        height: 0.5rem;
+        margin-top: 18rem;
+    }
+
+    .contact-1 p {
+        margin-top: -22rem;
+        font-size: 15px;
+    }
+
+    .contact {
+        margin-top: 3rem;
+    }
+   
+}
+
+

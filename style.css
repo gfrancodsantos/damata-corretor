@@ -78,20 +78,26 @@ html, body {
 }
 
 .slides{
-    width: 1000px;
+    width: 1020px;
     height: 446px;
     display: flex;
     margin-top: -1rem;
 }
 
 .image img {
-    width: 1000px;
+    width: 1032px;
     height: 446px;
     margin-top: -1rem;
+    margin-left: -2.1rem;
 }
 
-#atual{
+#atual {
     transition: all 2s;
+}
+
+#atual img{
+    width: 1040px;
+    margin-left: -0.95rem;
 }
 
 .balls{
@@ -729,15 +735,15 @@ a {
     }
 
     #atual img {
-        width: 800px;
+        width: 850px;
         height: 340px;
-        margin-left: 1rem;
+        margin-left: -1.3rem;
     }
 
     .image img {
-        width: 800px;
+        width: 850px;
         height: 340px;
-        margin-left: 12.3rem;
+        margin-left: 9.5rem;
     }
 
     .balls {
@@ -822,6 +828,39 @@ a {
         right: 0px;    
         flex-direction: column;
         text-align: center;
+    }
+
+    .slide {
+        display: flex;
+        overflow: hidden;
+        width: 800px;
+        height: 340px;
+        margin-left: 32rem;
+        transition: all 0.4s;
+    }
+
+    .slides {
+        width: 800px;
+        height: 340px;
+        display: flex;
+    }
+
+    #atual img {
+        width: 800px;
+        height: 340px;
+        margin-left: 1rem;
+    }
+
+    .image img {
+        width: 800px;
+        height: 340px;
+        margin-left: 12.5rem;
+    }
+
+    .profile {
+        margin-top: 8rem;
+        width: 800px;
+        margin-left: 32rem;
     }
 
     .container-all {
@@ -968,7 +1007,7 @@ a {
         overflow: hidden;
         width: 500px;
         height: 240px;
-        margin-left: 41rem;
+        margin-left: 41.2rem;
         transition: all 0.4s;
     }
 
@@ -979,21 +1018,21 @@ a {
     }
 
     #atual img {
-        width: 500px;
+        width: 525px;
         height: 240px;
-        margin-left: 0rem;
+        margin-left: -0.7rem;
     }
 
     .image img {
-        width: 500px;
+        width: 525px;
         height: 240px;
-        margin-left: 31.2rem;
+        margin-left: 29.75rem;
     }
 
     .balls {
         margin-top: -13rem;
         display: flex;
-        margin-left: -16rem;
+        margin-left: -9rem;
     }
 
     .profile {
@@ -1317,9 +1356,9 @@ a {
     .slide {
         display: flex;
         overflow: hidden;
-        width: 385px;
+        width: 380px;
         height: 200px;
-        margin-left: 41.4rem;
+        margin-left: 41.2rem;
         transition: all 0.4s;
     }
 
@@ -1330,15 +1369,15 @@ a {
     }
 
     #atual img {
-        width: 385px;
+        width: 395px;
         height: 200px;
-        margin-left: -0.1rem;
+        margin-left: -0.35rem;
     }
 
     .image img {
-        width: 385px;
+        width: 395px;
         height: 200px;
-        margin-left: 38.2rem;
+        margin-left: 37.7rem;
     }
 
     .balls {
@@ -1603,28 +1642,28 @@ a {
     .slide {
         display: flex;
         overflow: hidden;
-        width: 385px;
+        width: 380px;
         height: 200px;
-        margin-left: 41.4rem;
+        margin-left: 41.2rem;
         transition: all 0.4s;
     }
 
     .slides {
-        width: 385px;
+        width: 400px;
         height: 200px;
         display: flex;
     }
 
     #atual img {
-        width: 385px;
+        width: 400px;
         height: 200px;
-        margin-left: -0.1rem;
+        margin-left: -0.5rem;
     }
 
     .image img {
-        width: 385px;
+        width: 400px;
         height: 200px;
-        margin-left: 38rem;
+        margin-left: 37.6rem;
     }
 
     .balls {
@@ -1894,7 +1933,7 @@ a {
         overflow: hidden;
         width: 380px;
         height: 200px;
-        margin-left: 41.5rem;
+        margin-left: 41.2rem;
         transition: all 0.4s;
     }
 
@@ -1905,15 +1944,15 @@ a {
     }
 
     #atual img {
-        width: 380px;
+        width: 398px;
         height: 200px;
-        margin-left: 0rem;
+        margin-left: -0.6rem;
     }
 
     .image img {
-        width: 380px;
+        width: 398px;
         height: 200px;
-        margin-left: 39rem;
+        margin-left: 37.6rem;
     }
 
     .balls {
@@ -1960,54 +1999,6 @@ a {
 
     #font2 {
         font-size: 0.8rem;
-    }
-
-    #title {
-        margin-top: -2rem;
-        margin-left: 51.3rem;
-        font-size: 15px;
-    }
-
-    #subtitle {
-        font-size: 10px;
-        margin-left: 46.5rem;
-        width: 30rem;
-        margin-top: 0.5rem;
-    }
-
-    .up {
-        width: 380px;
-        margin-left: 41.2rem;
-        margin-top: -10rem;
-    }
-
-    .up img {
-        margin-left: 1.5rem;
-        width: auto;
-        height: 115px;
-        margin-top: 12rem;
-    }
-
-    .button1 {
-        margin-top: 20rem;
-        margin-left: -18.5rem;
-        width: 5rem;
-        height: 0.5rem;
-    }
-
-    .button1 p {
-        font-size: 0.5rem;
-    }
-
-    .button2 p {
-        font-size: 0.5rem;
-    }
-
-    .button2 {
-        margin-top: 20rem;
-        margin-left: -7.5rem;
-        width: 5rem;
-        height: 0.5rem;
     }
 
     .contact-1 p {
@@ -2082,19 +2073,37 @@ a {
     }
 
     .slide {
-        margin-left: 41rem;
-    }
-
-    .image img {
+        display: flex;
+        overflow: hidden;
         width: 380px;
         height: 200px;
-        margin-left: 39.1rem;
+        margin-left: 41.2rem;
+        transition: all 0.4s;
+    }
+
+
+    .profile {
+        margin-top: 6rem;
+        width: 380px;
+        margin-left: 41.2rem;
+    }
+
+
+    .slides {
+        width: 380px;
+        height: 200px;
+        display: flex;
+    }
+    .image img {
+        width: 400px;
+        height: 200px;
+        margin-left: 37.5rem;
     }
 
     #atual img {
-        width: 380px;
+        width: 400px;
         height: 200px;
-        margin-left: 0.1rem;
+        margin-left: -0.5rem;
     }
 }
 
@@ -2222,7 +2231,7 @@ a {
         overflow: hidden;
         width: 330px;
         height: 170px;
-        margin-left: 42.9rem;
+        margin-left: 42.75rem;
         transition: all 0.4s;
     }
 
@@ -2233,15 +2242,15 @@ a {
     }
 
     #atual img {
-        width: 330px;
+        width: 350px;
         height: 170px;
-        margin-left: 0rem;
+        margin-left: -0.5rem;
     }
 
     .image img {
-        width: 330px;
+        width: 350px;
         height: 170px;
-        margin-left: 41.9rem;
+        margin-left: 40.6rem;
     }
 
     .balls {
@@ -2505,7 +2514,7 @@ a {
         overflow: hidden;
         width: 330px;
         height: 170px;
-        margin-left: 42.9rem;
+        margin-left: 42.75rem;
         transition: all 0.4s;
     }
 
@@ -2516,15 +2525,15 @@ a {
     }
 
     #atual img {
-        width: 330px;
+        width: 350px;
         height: 170px;
-        margin-left: 0rem;
+        margin-left: -0.5rem;
     }
 
     .image img {
-        width: 330px;
+        width: 350px;
         height: 170px;
-        margin-left: 41.9rem;
+        margin-left: 40.6rem;
     }
 
     .balls {
@@ -2793,7 +2802,7 @@ a {
         overflow: hidden;
         width: 330px;
         height: 170px;
-        margin-left: 42.9rem;
+        margin-left: 42.75rem;
         transition: all 0.4s;
     }
 
@@ -2804,15 +2813,15 @@ a {
     }
 
     #atual img {
-        width: 330px;
+        width: 350px;
         height: 170px;
-        margin-left: -0.45rem;
+        margin-left: -0.5rem;
     }
 
     .image img {
-        width: 330px;
+        width: 350px;
         height: 170px;
-        margin-left: 42.35rem;
+        margin-left: 42.5rem;
     }
 
     .balls {

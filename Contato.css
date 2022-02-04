@@ -323,7 +323,7 @@ form p {
     }
 
     .call-me p {
-        margin-left: 23.3rem;    
+        margin-left: 24rem;    
     }
 
     #main img {
@@ -418,11 +418,11 @@ form p {
 
     #main ul li a {
         font-size: 0.80rem;
-        margin-left: 68rem;
+        margin-left: 65rem;
     }
 
     #main ul li {
-        margin-left: -1rem;
+        margin-left: -0.1rem;
         justify-content: space-evenly;
     }
 
@@ -431,14 +431,87 @@ form p {
         margin-right: 27rem;
     }
 }
+
+@media (max-width: 1680px){
+    .containerall {
+        margin-left: -7rem;
+    }
+
+    .call-me p {
+        margin-left: -3.5rem;    
+    }
+
+    .highlights p {
+        margin-left: -4rem;
+    }
+
+    #main ul img {
+        margin-left: 20rem;
+    }
+
+    #main ul li a {
+        font-size: 1.1rem;
+        margin-left: 54rem;
+    }
+
+    #main ul li {
+        justify-content: space-evenly;
+        margin-left: 0.4rem;
+    }
+
+    .base {
+        margin-top: 22.05rem;
+    }
+    #copyright {
+        margin-left: 15rem;
+    }
+
+    #by a {
+        margin-left: 50rem;
+    }
+}
+
+@media (max-width: 1600px){
+    .containerall {
+        margin-left: -8.5rem;
+    }
+
+    .call-me p {
+        margin-left: -4.5rem;    
+    }
+
+    #main ul img {
+        margin-left: 19rem;
+    }
+
+    #main ul li {
+        justify-content: space-evenly;
+        margin-left: 0.4rem;
+    }
+
+
+    #main ul li a {
+        font-size: 1.1rem;
+        margin-left: 53rem;
+    }
+
+    #copyright {
+        margin-left: 15rem;
+    }
+
+    #by a {
+        margin-left: 46rem;
+    }
+}
+
 @media (max-width: 1440px){
     html, body {
         overflow-x: hidden;
     }
-    .container-all {
-        margin-left: -13rem;
+    .containerall {
+        margin-left: 1.5rem;
     }
-    
+
     #main ul img {
         margin-left: 12.5rem;
         margin-top: 5rem;
@@ -469,7 +542,7 @@ form p {
     }
 
     .call-me p {
-        margin-left: -13.5rem;    
+        margin-left: -11rem;    
     }
 
     #copyright {
@@ -485,8 +558,8 @@ form p {
         max-width: 1280px;
     }
 
-    .container-all {
-        margin-left: -16.5rem;
+    .containerall {
+        margin-left: 0.5rem;
     }
 
     #main img {
@@ -523,7 +596,7 @@ form p {
     }
 
     .call-me p {
-        margin-left: -17rem;    
+        margin-left: -15rem;    
     }
 
     #copyright {
@@ -544,8 +617,8 @@ form p {
         overflow-x: hidden;
     }
 
-    .container-all {
-        margin-left: -26rem;
+    .containerall {
+        margin-left: -0.4rem;
     }
 
     #btn-mobile {
@@ -596,13 +669,13 @@ form p {
   
      #nav.active #hamburger::before {
         transform: rotate(135deg);
-        right: 15rem;
+        right: 14rem;
      }
   
      #nav.active #hamburger::after {
         transform: rotate(-135deg);
         top: -7px;
-        right: 15rem;
+        right: 14rem;
      }
 
      #main {
@@ -711,17 +784,13 @@ form p {
     }
 }
 
-@media (max-width: 768px){
-    * {
-        max-width: 768px;
-    }
-
+@media (max-width: 800px){
     html, body {
         overflow-x: hidden;
     }
 
-    .container-all {
-        margin-left: -33rem;
+    .containerall {
+        margin-left: 1.4rem;
     }
 
     #btn-mobile {
@@ -772,13 +841,213 @@ form p {
   
      #nav.active #hamburger::before {
         transform: rotate(135deg);
-        right: 6rem;
+        right: 11rem;
      }
   
      #nav.active #hamburger::after {
         transform: rotate(-135deg);
         top: -7px;
-        right: 6rem;
+        right: 11rem;
+     }
+
+     #main {
+         width: 100%;
+         display: flex;
+     }
+
+    #menu1 {
+        display: none;
+        position: absolute;
+        width: 45%;
+        height: 100vh;
+        top: 5rem;
+        right: 0px;    
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menu1 li a {
+        font-size: 1.1rem;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+        margin-top: 5rem;
+        text-decoration: none;
+       }
+
+
+  
+     #nav.active #menu1 {
+        display: flex;
+        margin-right: -2rem;
+        background-color: #ffffff;
+        box-shadow: -10px 0px 30px -15px;
+        z-index: 150;
+        position: fixed;
+        height: 100%;
+        margin-top: -5rem;  
+     }
+
+    #main ul img {
+        margin-left: 1rem;
+        margin-top: 6rem;
+        width: 130px;
+    }
+
+    #main ul li a {
+        margin-left: 1rem;
+        
+    }
+
+    .highlights p {
+        margin-left: -32rem;
+        margin-top: -8rem;
+    }
+
+    form p {
+        font-size: 0.9rem;
+        width: 20rem;
+        margin-left: 5.5rem;
+    }
+    
+    .ground {
+        width: 600px;
+        height: 400px;
+    }
+
+    .section-contact {
+        margin-left: -23.5rem;
+    }
+
+    .call-me p {
+        margin-left: -19rem;    
+    }
+
+    .container11 {
+        margin-left: -12rem;
+        margin-top: 2rem;
+    }
+
+    .contact-wrrapper form {
+        margin-left: 55rem;
+    }
+
+    .form-img img {
+        margin-left: -27rem;
+        margin-top: -3rem;
+        width: 200px;
+        height: 400px;
+    }
+
+    .field1 {
+        width: 250px;
+        margin-left: 2rem;
+    }
+
+    .field2 {
+        width: 250px;
+        margin-left: 2rem;
+
+    }
+
+    .field-msg {
+        width: 250px;
+        height: 60px;
+        margin-left: 2.1rem;
+    }
+
+    .btn-submit {
+        margin-left: 7rem;
+    }
+
+    .contact-1 p {
+        margin-top: 15rem;
+    }
+
+    .base {
+        width: 100%;
+    }
+
+    #copyright {
+        margin-left: 2.5rem;
+        font-size: 0.7rem;
+    }
+
+    #by a {
+        margin-left: 23rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 768px){
+    * {
+        max-width: 768px;
+    }
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .containerall {
+        margin-left: 0.4rem;
+    }
+
+    #btn-mobile {
+        position: absolute;
+        display: block;
+        margin-left: 43rem;
+        width: 5rem;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+
+    #btn-mobile {
+        display: flex;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        position: fixed;
+        z-index: 180;
+        width: 2rem;
+        margin-top: 3.1rem;
+    }
+
+    #hamburger {
+        width: 20px;
+        border-top: 2px solid;
+        color: rgb(104, 112, 143);
+        cursor: pointer;
+        z-index: 180;
+    }
+
+    #hamburger::after, #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+     }
+  
+     #nav.active #hamburger::before {
+        transform: rotate(135deg);
+        right: 12rem;
+     }
+  
+     #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+        right: 12rem;
      }
 
      #main {
@@ -852,7 +1121,7 @@ form p {
     }
 
     .call-me p {
-        margin-left: -22rem;    
+        margin-left: -21rem;    
     }
 
     .container11 {
@@ -968,13 +1237,13 @@ form p {
   
      #nav.active #hamburger::before {
         transform: rotate(135deg);
-        right: 6rem;
+        right: 13rem;
      }
   
      #nav.active #hamburger::after {
         transform: rotate(-135deg);
         top: -7px;
-        right: 6rem;
+        right: 13rem;
      }
 
      #main {
@@ -985,7 +1254,7 @@ form p {
     #menu1 {
         display: none;
         position: absolute;
-        width: 45%;
+        width: 50%;
         height: 100vh;
         top: 5rem;
         right: 0px;    
@@ -1048,7 +1317,7 @@ form p {
     }
 
     .call-me p {
-        margin-left: -23.5rem;    
+        margin-left: -22.5rem;    
     }
 
     .container11 {
@@ -1108,10 +1377,427 @@ form p {
     }
 }
 
+@media (max-width: 600px){
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .containerall {
+        margin-left: 5.5rem;
+    }
+
+    #btn-mobile {
+        position: absolute;
+        display: block;
+        margin-left: 32rem;
+        width: 5rem;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+
+    #btn-mobile {
+        display: flex;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        position: fixed;
+        z-index: 180;
+        width: 2rem;
+        margin-top: 3.1rem;
+    }
+
+    #hamburger {
+        width: 20px;
+        border-top: 2px solid;
+        color: rgb(104, 112, 143);
+        cursor: pointer;
+        z-index: 180;
+    }
+
+    #hamburger::after, #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+     }
+  
+     #nav.active #hamburger::before {
+        transform: rotate(135deg);
+        right: 11rem;
+     }
+  
+     #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+        right: 11rem;
+     }
+
+     #main {
+         width: 100%;
+         display: flex;
+     }
+
+    #menu1 {
+        display: none;
+        position: absolute;
+        width: 55%;
+        height: 100vh;
+        top: 5rem;
+        right: 0px;    
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menu1 li a {
+        font-size: 1.1rem;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+        margin-top: 5rem;
+        text-decoration: none;
+       }
+
+
+  
+     #nav.active #menu1 {
+        display: flex;
+        margin-right: -2rem;
+        background-color: #ffffff;
+        box-shadow: -10px 0px 30px -15px;
+        z-index: 150;
+        position: fixed;
+        height: 100%;
+        margin-top: -5rem;  
+     }
+
+    #main ul img {
+        margin-left: -0.5rem;
+        margin-top: 6rem;
+        width: 130px;
+    }
+
+    #main ul li a {
+        margin-left: 1rem;
+        
+    }
+
+    .highlights p {
+        margin-left: -38.5rem;
+        margin-top: -10rem;
+    }
+    
+    .ground {
+        width: 300px;
+        height: 550px;
+    }
+
+    .section-contact {
+        margin-left: -24.5rem;
+        margin-top: 5rem;
+    }
+
+    .call-me p {
+        margin-left: -26.6rem;    
+        text-align: center;
+    }
+
+    .container11 {
+        margin-left: -12rem;
+        margin-top: 2rem;
+    }
+
+    .contact-wrrapper form {
+        margin-left: 55rem;
+       
+    }
+
+    .form-img img {
+        margin-left: -27rem;
+        margin-top: -16.5rem;
+        width: 300px;
+        height: 200px;
+    }
+
+
+    form p {
+        font-size: 0.9rem;
+        width: 20rem;
+        margin-left: -10rem;
+    }
+
+    .field1 {
+        width: 250px;
+        margin-left: -13.6rem;
+    }
+
+    .field2 {
+        width: 250px;
+        margin-left: -13.6rem;
+
+    }
+
+    .field-msg {
+        width: 250px;
+        height: 60px;
+        margin-left: -13.5rem;
+    }
+
+    .btn-submit {
+        margin-left: -9rem;
+    }
+
+    .contact-1 p {
+        margin-top: 15rem;
+    }
+
+    .base {
+        width: 100%;
+        height: 4rem;
+        display: inline-block;
+        text-align: center;
+        margin-top: 12.5rem;
+    }
+
+    #copyright {
+        margin-left: 0rem;
+        font-size: 0.7rem;
+        margin-top: 1.2rem;
+        line-height: 1px;
+    }
+
+    #by a {
+        margin-left: 0rem;
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 480px){
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .containerall {
+        margin-left: 2rem;
+    }
+
+    #btn-mobile {
+        position: absolute;
+        display: block;
+        margin-left: 25rem;
+        width: 5rem;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+
+    #btn-mobile {
+        display: flex;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        position: fixed;
+        z-index: 180;
+        width: 2rem;
+        margin-top: 3.1rem;
+    }
+
+    #hamburger {
+        width: 20px;
+        border-top: 2px solid;
+        color: rgb(104, 112, 143);
+        cursor: pointer;
+        z-index: 180;
+    }
+
+    #hamburger::after, #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+     }
+  
+     #nav.active #hamburger::before {
+        transform: rotate(135deg);
+        right: 11rem;
+     }
+  
+     #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+        right: 11rem;
+     }
+
+     #main {
+         width: 100%;
+         display: flex;
+     }
+
+    #menu1 {
+        display: none;
+        position: absolute;
+        width: 65%;
+        height: 100vh;
+        top: 5rem;
+        right: 0px;    
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menu1 li a {
+        font-size: 1.1rem;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+        margin-top: 5rem;
+        text-decoration: none;
+       }
+
+
+  
+     #nav.active #menu1 {
+        display: flex;
+        margin-right: -2rem;
+        background-color: #ffffff;
+        box-shadow: -10px 0px 30px -15px;
+        z-index: 150;
+        position: fixed;
+        height: 100%;
+        margin-top: -5rem;  
+     }
+
+    #main ul img {
+        margin-left: -0.5rem;
+        margin-top: 6rem;
+        width: 130px;
+    }
+
+    #main ul li a {
+        margin-left: 1rem;
+        
+    }
+
+    .highlights p {
+        margin-left: -42.5rem;
+        margin-top: -10rem;
+    }
+    
+    .ground {
+        width: 300px;
+        height: 550px;
+    }
+
+    .section-contact {
+        margin-left: -24.5rem;
+        margin-top: 5rem;
+    }
+
+    .call-me p {
+        margin-left: -26.6rem;    
+        text-align: center;
+    }
+
+    .container11 {
+        margin-left: -12rem;
+        margin-top: 2rem;
+    }
+
+    .contact-wrrapper form {
+        margin-left: 55rem;
+       
+    }
+
+    .form-img img {
+        margin-left: -27rem;
+        margin-top: -16.5rem;
+        width: 300px;
+        height: 200px;
+    }
+
+
+    form p {
+        font-size: 0.9rem;
+        width: 20rem;
+        margin-left: -10rem;
+    }
+
+    .field1 {
+        width: 250px;
+        margin-left: -13.6rem;
+    }
+
+    .field2 {
+        width: 250px;
+        margin-left: -13.6rem;
+
+    }
+
+    .field-msg {
+        width: 250px;
+        height: 60px;
+        margin-left: -13.5rem;
+    }
+
+    .btn-submit {
+        margin-left: -9rem;
+    }
+
+    .contact-1 p {
+        margin-top: 15rem;
+    }
+
+    .base {
+        width: 100%;
+        height: 4rem;
+        display: inline-block;
+        text-align: center;
+        margin-top: 12.5rem;
+    }
+
+    #copyright {
+        margin-left: 0rem;
+        font-size: 0.7rem;
+        margin-top: 1.2rem;
+        line-height: 1px;
+    }
+
+    #by a {
+        margin-left: 0rem;
+        font-size: 0.6rem;
+    }
+}
+
 @media (max-width: 425px){
     * {
         max-width: 425px;
     }
+
+    .containerall {
+        margin-left: 0.6rem;
+    }
+
 
     html, body {
         overflow-x: hidden;
@@ -1165,13 +1851,13 @@ form p {
   
      #nav.active #hamburger::before {
         transform: rotate(135deg);
-        right: 6rem;
+        right: 13rem;
      }
   
      #nav.active #hamburger::after {
         transform: rotate(-135deg);
         top: -7px;
-        right: 6rem;
+        right: 13rem;
      }
 
      #main {
@@ -1182,7 +1868,7 @@ form p {
     #menu1 {
         display: none;
         position: absolute;
-        width: 45%;
+        width: 85%;
         height: 100vh;
         top: 5rem;
         right: 0px;    
@@ -1319,6 +2005,10 @@ form p {
         max-width: 414px;
     }
 
+    .containerall {
+        margin-left: 0.6rem;
+    }
+
     #menu1 {
         display: none;
         position: absolute;
@@ -1376,85 +2066,15 @@ form p {
     }
 }
 
-@media (max-width: 375px){
-    * {
-        max-width: 375px;
+@media (max-width: 412px){
+    .containerall {
+        margin-left: 0.6rem;
     }
-
-    html, body {
-        overflow-x: hidden;
-    }
-
-    .container-all {
-        margin-left: -41.8rem;
-    }
-
-    #btn-mobile {
-        position: absolute;
-        display: block;
-        margin-left: 19rem;
-        width: 5rem;
-        justify-content: center;
-        align-items: center;
-        z-index: 10;
-    }
-
-    #btn-mobile {
-        display: flex;
-        font-size: 1rem;
-        border: none;
-        background: none;
-        cursor: pointer;
-        gap: .5rem;
-        position: fixed;
-        z-index: 180;
-        width: 2rem;
-        margin-top: 3.1rem;
-    }
-
-    #hamburger {
-        width: 20px;
-        border-top: 2px solid;
-        color: rgb(104, 112, 143);
-        cursor: pointer;
-        z-index: 180;
-    }
-
-    #hamburger::after, #hamburger::before {
-        content: '';
-        display: block;
-        width: 20px;
-        height: 2px;
-        background-color: currentColor;
-        margin-top: 5px;
-        transition: .3s;
-        position: relative;
-    }
-
-    #nav.active #hamburger {
-        border-top-color: transparent;
-     }
-  
-     #nav.active #hamburger::before {
-        transform: rotate(135deg);
-        right: 12rem;
-     }
-  
-     #nav.active #hamburger::after {
-        transform: rotate(-135deg);
-        top: -7px;
-        right: 12rem;
-     }
-
-     #main {
-         width: 100%;
-         display: flex;
-     }
 
     #menu1 {
         display: none;
         position: absolute;
-        width: 80%;
+        width: 85%;
         height: 100vh;
         top: 5rem;
         right: 0px;    
@@ -1462,54 +2082,32 @@ form p {
         text-align: center;
     }
 
-    #menu1 li a {
-        font-size: 1.1rem;
-        display: flex; 
-        align-items: center;
-        justify-content: center;
-        width: 20rem;
-        margin-top: 5rem;
-        text-decoration: none;
-       }
-
-
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+        right: 14rem;
+     }
   
-     #nav.active #menu1 {
-        display: flex;
-        margin-right: -2rem;
-        background-color: #ffffff;
-        box-shadow: -10px 0px 30px -15px;
-        z-index: 150;
-        position: fixed;
-        height: 100%;
-        margin-top: -5rem;  
+     #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+        right: 14rem;
      }
 
-    #main ul img {
-        margin-left: 0.5rem;
-        margin-top: 6.8rem;
-        width: 110px;
-    }
-
-    #main ul li a {
-        margin-left: -0.5rem;
+    .containerall{
+        margin-left: -0.3rem;
     }
 
     .highlights p {
-        margin-left: -45.8rem;
+        margin-left: -44.5rem;
     }
 
-    .section-contact {
-        margin-left: -26rem;
+    .call-me p {
+        margin-left: -26.6rem;
     }
 
     .contact-1 p {
         margin-top: 15rem;
         font-size: 15px;
-    }
-
-    .contact {
-        margin-top: 3rem;
     }
 
     .fa-facebook-f {
@@ -1528,28 +2126,261 @@ form p {
         font-size: 1rem;
         color: #878685;
     }
+}
+
+@media (max-width: 393px){
+    .containerall {
+        margin-left: 0.6rem;
+    }
+
+    #menu1 {
+        display: none;
+        position: absolute;
+        width: 85%;
+        height: 100vh;
+        top: 5rem;
+        right: 0px;    
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+        right: 13rem;
+     }
+  
+     #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+        right: 13rem;
+     }
+
+     #btn-mobile {
+         margin-left: 20rem;
+     }
+
+    .containerall{
+        margin-left: -1rem;
+    }
+
+    .highlights p {
+        margin-left: -44.5rem;
+    }
 
     .call-me p {
-        margin-left: -26.7rem;
+        margin-left: -26.6rem;
     }
 
-    .base {
-        width: 100%;
-        height: 3.5rem;
-        display: inline-block;
+    .contact-1 p {
+        margin-top: 15rem;
+        font-size: 15px;
+    }
+
+    .fa-facebook-f {
+        font-size: 1rem;
+        margin-right: 2rem;
+        color: #878685;
+    }
+    
+    .fa-whatsapp {
+        font-size: 1rem;
+        margin-right: 2rem;
+        color: #878685;
+    }
+    
+    .fa-envelope {
+        font-size: 1rem;
+        color: #878685;
+    }
+}
+
+@media (max-width: 375px){
+    * {
+        max-width: 375px;
+    }
+
+    .containerall {
+        margin-left: -1.6rem;
+    }
+
+    #menu1 {
+        display: none;
+        position: absolute;
+        width: 85%;
+        height: 100vh;
+        top: 5rem;
+        right: 0px;    
+        flex-direction: column;
         text-align: center;
-        margin-top: 12.9rem;
     }
 
-    #copyright {
-        margin-left: 0rem;
-        font-size: 0.7rem;
-        margin-top: 1rem;
-        line-height: 1px;
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+        right: 13rem;
+     }
+  
+     #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+        right: 13rem;
+     }
+
+     #btn-mobile {
+         margin-left: 20rem;
+     }
+
+    .highlights p {
+        margin-left: -46rem;
     }
 
-    #by a {
-        margin-left: 0rem;
-        font-size: 0.6rem;
+    .call-me p {
+        margin-left: -26.6rem;
+    }
+
+    .contact-1 p {
+        margin-top: 15rem;
+        font-size: 15px;
+    }
+
+    .fa-facebook-f {
+        font-size: 1rem;
+        margin-right: 2rem;
+        color: #878685;
+    }
+    
+    .fa-whatsapp {
+        font-size: 1rem;
+        margin-right: 2rem;
+        color: #878685;
+    }
+    
+    .fa-envelope {
+        font-size: 1rem;
+        color: #878685;
+    }
+}
+
+@media (max-width: 360px){
+    .containerall {
+        margin-left: -2rem;
+    }
+
+    #menu1 {
+        display: none;
+        position: absolute;
+        width: 90%;
+        height: 100vh;
+        top: 5rem;
+        right: 0px;    
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+        right: 12rem;
+     }
+  
+     #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+        right: 12rem;
+     }
+
+     #btn-mobile {
+         margin-left: 18.5rem;
+     }
+
+    .highlights p {
+        margin-left: -46rem;
+    }
+
+    .call-me p {
+        margin-left: -27rem;
+    }
+
+    .contact-1 p {
+        margin-top: 15rem;
+        font-size: 15px;
+    }
+
+    .fa-facebook-f {
+        font-size: 1rem;
+        margin-right: 2rem;
+        color: #878685;
+    }
+    
+    .fa-whatsapp {
+        font-size: 1rem;
+        margin-right: 2rem;
+        color: #878685;
+    }
+    
+    .fa-envelope {
+        font-size: 1rem;
+        color: #878685;
+    }
+}
+
+@media (max-width: 320px){
+    .containerall {
+        margin-left: -3.35rem;
+    }
+
+    #menu1 {
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 5rem;
+        right: 0px;    
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+        right: 12.5rem;
+     }
+  
+     #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+        right: 12.5rem;
+     }
+
+     #btn-mobile {
+         margin-left: 17rem;
+     }
+
+    .highlights p {
+        margin-left: -47rem;
+    }
+
+    .call-me p {
+        margin-left: -28.5rem;
+        font-size: 0.8rem;
+    }
+
+    .contact-1 p {
+        margin-top: 15rem;
+        font-size: 15px;
+    }
+
+    .fa-facebook-f {
+        font-size: 1rem;
+        margin-right: 2rem;
+        color: #878685;
+    }
+    
+    .fa-whatsapp {
+        font-size: 1rem;
+        margin-right: 2rem;
+        color: #878685;
+    }
+    
+    .fa-envelope {
+        font-size: 1rem;
+        color: #878685;
     }
 }

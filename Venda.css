@@ -1138,7 +1138,7 @@ margin-top: 15rem;
     #btn-mobile {
         position: absolute;
         display: block;
-        margin-left: 23rem;
+        margin-left: 24rem;
         width: 5rem;
         justify-content: center;
         align-items: center;
@@ -1232,7 +1232,7 @@ margin-top: 15rem;
      }
 
     #main ul img {
-        margin-left: 0rem;
+        margin-left: 1rem;
         margin-top: 6.8rem;
         width: 110px;
     }

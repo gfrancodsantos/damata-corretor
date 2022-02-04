@@ -14,15 +14,11 @@ html, body {
     height: 6rem;
 }
 
-#main img {
+#main ul img {
     margin-top: -2rem;
     margin-left: 24.5rem;
     width: 160px;
     cursor: pointer;
-}
-
-#main ul {
-    margin-right: 27rem;
 }
 
 #main ul li {

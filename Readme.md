@@ -21,3 +21,7 @@ Tarefas importantes ->
 3 - Ajustes no JS (balls)
 4 - Colocar o texto no "about"
 5 - reduzir background-gradient do "about"
+
+
+e-mail
+damata7imoveis

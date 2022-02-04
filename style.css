@@ -476,7 +476,7 @@ a {
     }
 
     #main ul img {
-        margin-left: 20.5rem;
+        margin-left: 20rem;
         margin-top: 5rem;
         width: 130px;
     }
@@ -493,7 +493,7 @@ a {
     }
 
     #main ul img {
-        margin-left: 18.2rem;
+        margin-left: 17.8rem;
         margin-top: 5rem;
         width: 130px;
     }
@@ -521,7 +521,7 @@ a {
     }
     
     #main ul img {
-        margin-left: 13.3rem;
+        margin-left: 13rem;
         margin-top: 5rem;
         width: 130px;
     }
@@ -568,7 +568,7 @@ a {
     }
     
     #main ul img {
-        margin-left: 9rem;
+        margin-left: 8rem;
         margin-top: 5rem;
         width: 130px;
     }
@@ -704,7 +704,7 @@ a {
      }
 
     #main ul img {
-        margin-left: 7.3rem;
+        margin-left: 5.5rem;
         margin-top: 6rem;
         width: 130px;
     }
@@ -814,7 +814,7 @@ a {
     }
 
     #main ul img {
-        margin-left: 1rem;
+        margin-left: 0rem;
         margin-top: 6rem;
         width: 130px;
     }
@@ -992,7 +992,7 @@ a {
      }
 
     #main ul img {
-        margin-left: 7.5rem;
+        margin-left: 6.7rem;
         margin-top: 6rem;
         width: 130px;
     }
@@ -1141,7 +1141,7 @@ a {
     }
 
     #main ul img {
-        margin-left: 5.5rem;
+        margin-left: 5rem;
         margin-top: 6rem;
         width: 130px;
     }
@@ -1344,7 +1344,7 @@ a {
      }
 
     #main ul img {
-        margin-left: 2.3rem;
+        margin-left: 1.9rem;
         margin-top: 6.8rem;
         width: 110px;
     }
@@ -1630,7 +1630,7 @@ a {
      }
 
     #main ul img {
-        margin-left: 0.5rem;
+        margin-left: 0rem;
         margin-top: 6.8rem;
         width: 110px;
     }
@@ -1919,7 +1919,7 @@ a {
      }
 
     #main ul img {
-        margin-left: 0.5rem;
+        margin-left: -0.4rem;
         margin-top: 6.8rem;
         width: 110px;
     }
@@ -2052,6 +2052,10 @@ a {
 @media (max-width: 412px){
     * {
         max-width: 412px;
+    }
+
+    #main ul img {
+        margin-left: -0.6rem;
     }
 
     html, body {

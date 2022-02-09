@@ -408,11 +408,11 @@ section{
 
 @media (max-width: 1900px){
     .container-all {
-        margin-left: 2.4rem;
+        margin-left: 1.4rem;
     }
 
     #main ul img {
-        margin-left: 29rem;
+        margin-left: 27rem;
         margin-top: 5rem;
         width: 130px;
     }
@@ -433,7 +433,7 @@ section{
     }
 
     .button-sales {
-        margin-left: 22.9rem;
+        margin-left: 22rem;
     }
 }
 

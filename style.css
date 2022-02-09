@@ -7,6 +7,61 @@ html, body {
     overflow-x: hidden;
 }
 
+.header-bar {
+    width: 100%;
+    height: 26px;
+    padding: 0;
+    margin-top: 6rem;
+    z-index: 4000;
+    background-color: #e4e4e4;
+    overflow: hidden;
+    position: fixed;
+}
+
+.container-bar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container-bar p {
+    margin-top: 3px;
+    font-family: RobotoMono-VariableFont;
+    font-size: 12px;
+    color: #0C1541;
+    letter-spacing: 1.3px;
+    animation: type 5s steps(60, end); 
+    white-space: nowrap;
+    overflow: hidden;
+    width: 35rem;
+}
+
+.container-bar p:nth-child(2){
+    animation: type2 8s steps(60, end);
+}
+
+.container-bar span {
+    animation: blink 1s infinite;
+}
+
+@keyframes type {
+    from {width: 0;}
+}
+
+@keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+
+  ::selection{
+    background: black;
+  }
+
 #main {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 75.52%, rgba(196, 196, 196, 0.29) 100%);
     list-style: none;

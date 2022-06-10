@@ -13,7 +13,7 @@ function fixarMenuNoTopo() {
         nav.classList.remove("FixoNoTopo");
     }
 }
-
+/*
 var balls = document.querySelector('.balls')
 var quant = document.querySelectorAll('.slides .image')
 var atual = 0
@@ -62,7 +62,7 @@ setInterval(()=>{
     atual++
     slide()
 },4000)
-
+*/
 const btnMobile = document.getElementById('btn-mobile');
 
 function toggleMenu(event){

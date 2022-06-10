@@ -7,12 +7,12 @@ html, body {
     overflow-x: hidden;
 }
 
-/*
+
 .header-bar {
     width: 100%;
     height: 26px;
     padding: 0;
-    margin-top: 6rem;
+    margin-top:4.9rem;
     z-index: 4000;
     background-color: #e4e4e4;
     overflow: hidden;
@@ -26,7 +26,7 @@ html, body {
 }
 
 .container-bar p {
-    margin-top: 3px;
+    margin-top: -13px;
     font-family: RobotoMono-VariableFont;
     font-size: 12px;
     color: #0C1541;
@@ -44,7 +44,7 @@ html, body {
 .container-bar span {
     animation: blink 1s infinite;
 }
-*/
+
 
 @keyframes type {
     from {width: 0;}
@@ -427,6 +427,43 @@ p {
 
 @media (max-width: 2560px){
 
+    .legend {
+        margin-top: 0rem;
+        width: 7rem;
+        margin-left: 9rem;
+        color: rgba(88, 82, 97, 1);
+        font-style: normal;
+    }
+
+    .header-bar {
+        width: 100%;
+        height: 26px;
+        padding: 0;
+        margin-top: 4rem;
+        z-index: 4000;
+        background-color: #e4e4e4;
+        overflow: hidden;
+        position: fixed;
+    }
+    
+    .container-bar {
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+    }
+    
+    .container-bar p {
+        margin-top: -13px;
+        font-family: RobotoMono-VariableFont;
+        font-size: 12px;
+        color: #0C1541;
+        letter-spacing: 1.3px;
+        animation: type 5s steps(60, end); 
+        white-space: nowrap;
+        overflow: hidden;
+        width: 35rem;
+    }
+
     html, body {
         overflow-x: hidden;
     }
@@ -435,20 +472,20 @@ p {
         margin-left: 23rem;
     }
 
-    #main img {
-        margin-top: 5rem;
-        margin-left: 47rem;
+    #main ul img {
+        margin-left: 50rem;
+        margin-top: 3rem;
+        width: 130px;
     }
     
     #main ul {
-        margin-top: -8rem;
-        margin-left: -2rem;
+        margin-top: -6rem;
+        margin-left: -3rem;
     }
 
     #main ul li a {
         font-size: 1.1rem;
         margin-left: 82.5rem;
-
     }
 
     #main ul li {
@@ -466,6 +503,36 @@ p {
 }
 
 @media (max-width: 1920px){
+
+    .header-bar {
+        width: 100%;
+        height: 26px;
+        padding: 0;
+        margin-top: 4rem;
+        z-index: 4000;
+        background-color: #e4e4e4;
+        overflow: hidden;
+        position: fixed;
+    }
+    
+    .container-bar {
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+    }
+    
+    .container-bar p {
+        margin-top: -13px;
+        font-family: RobotoMono-VariableFont;
+        font-size: 12px;
+        color: #0C1541;
+        letter-spacing: 1.3px;
+        animation: type 5s steps(60, end); 
+        white-space: nowrap;
+        overflow: hidden;
+        width: 35rem;
+    }
+
     html, body {
         overflow-x: hidden;
     }
@@ -478,9 +545,15 @@ p {
         margin-top: 4.8rem;
         margin-left: 27.5rem;
     }
+
+    #main ul img {
+        margin-left: 30rem;
+        margin-top: 4.5rem;
+        width: 130px;
+    }
     
     #main ul {
-        margin-top: -7.8rem;
+        margin-top: -6.8rem;
         margin-left: -2.7rem;
     }
 
@@ -499,6 +572,16 @@ p {
 }
 
 @media (max-width: 1900px){
+    .header-bar {
+        width: 100%;
+        height: 26px;
+        padding: 0;
+        margin-top: 4.5rem;
+        z-index: 4000;
+        background-color: #e4e4e4;
+        overflow: hidden;
+        position: fixed;
+    }
     html, body {
         overflow-x: hidden;
     }
@@ -508,7 +591,7 @@ p {
     }
 
     #main ul img {
-        margin-left: 26rem;
+        margin-left: 27rem;
         margin-top: 4.5rem;
         width: 130px;
     }
@@ -530,12 +613,41 @@ p {
 }
 
 @media (max-width: 1680px){
+
+    .header-bar {
+        width: 100%;
+        height: 26px;
+        padding: 0;
+        margin-top:4.4rem;
+        z-index: 4000;
+        background-color: #e4e4e4;
+        overflow: hidden;
+        position: fixed;
+    }
+    
+    .container-bar {
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+    }
+    
+    .container-bar p {
+        margin-top: -13px;
+        font-family: RobotoMono-VariableFont;
+        font-size: 12px;
+        color: #0C1541;
+        letter-spacing: 1.3px;
+        animation: type 5s steps(60, end); 
+        white-space: nowrap;
+        overflow: hidden;
+        width: 35rem;
+    }
     .container-all {
         margin-left: -4.5rem;
     }
 
     #main ul img {
-        margin-left: 20rem;
+        margin-left: 22rem;
         margin-top: 5rem;
         width: 130px;
     }
@@ -548,7 +660,7 @@ p {
 
 @media (max-width: 1600px){
     .container-all {
-        margin-left: -12rem;
+        margin-left: -7rem;
     }
 
     #main ul img {
@@ -576,18 +688,18 @@ p {
         overflow-x: hidden;
     }
     .container-all {
-        margin-left: -17rem;
+        margin-left: -13rem;
     }
     
     #main ul img {
-        margin-left: 9rem;
+        margin-left: 13rem;
         margin-top: 5rem;
         width: 130px;
     }
 
     #main ul li a {
         font-size: 0.80rem;
-        margin-left: 49rem;
+        margin-left: 54rem;
     }
 
     #main ul li {
@@ -620,7 +732,7 @@ p {
     }
 
     .container-all {
-        margin-left: -23rem;
+        margin-left: -17rem;
     }
 
     #main img {
@@ -629,14 +741,14 @@ p {
     }
     
     #main ul img {
-        margin-left: 9rem;
+        margin-left: 14rem;
         margin-top: 5rem;
         width: 130px;
     }
 
     #main ul li a {
         font-size: 0.80rem;
-        margin-left: 50rem;
+        margin-left: 58rem;
     }
 
     #main ul li {
@@ -663,12 +775,23 @@ p {
         max-width: 1024px;
     }
 
+    .header-bar {
+        width: 100%;
+        height: 26px;
+        padding: 0;
+        margin-top: -2.5rem;
+        z-index: 4000;
+        background-color: #e4e4e4;
+        overflow: hidden;
+        position: fixed;
+    }
+
     html, body {
         overflow-x: hidden;
     }
 
     .container-all {
-        margin-left: -27rem;
+        margin-left: -26rem;
     }
 
     #btn-mobile {
@@ -944,7 +1067,7 @@ p {
     }
 
     .container-all {
-        margin-left: -33.2rem;
+        margin-left: -32.5rem;
     }
 
     .base {
@@ -965,6 +1088,44 @@ p {
 @media (max-width: 768px){
     * {
         max-width: 768px;
+    }
+
+    .legend {
+        margin-top: 0rem;
+        width: 7rem;
+        margin-left: 9rem;
+        color: rgba(88, 82, 97, 1);
+        font-style: normal;
+    }
+
+    .header-bar {
+        width: 100%;
+        height: 26px;
+        padding: 0;
+        margin-top: -2.3rem;
+        z-index: 4000;
+        background-color: #e4e4e4;
+        overflow: hidden;
+        position: fixed;
+    }
+    
+    .container-bar {
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+    }
+
+    .container-bar p {
+        margin-top: -9px;
+        font-family: RobotoMono-VariableFont;
+        font-size: 9px;
+        color: #0C1541;
+        letter-spacing: 1.3px;
+        animation: type 5s steps(60, end); 
+        white-space: nowrap;
+        overflow: hidden;
+        width: 35rem;
+        margin-left: 8rem;
     }
 
     html, body {
@@ -1255,6 +1416,44 @@ p {
 }
 
 @media (max-width: 600px){
+    .legend {
+        margin-top: 0rem;
+        width: 7rem;
+        margin-left: 9rem;
+        color: rgba(88, 82, 97, 1);
+        font-style: normal;
+    }
+
+    .header-bar {
+        width: 100%;
+        height: 26px;
+        padding: 0;
+        margin-top: -2.3rem;
+        z-index: 4000;
+        background-color: #e4e4e4;
+        overflow: hidden;
+        position: fixed;
+    }
+    
+    .container-bar {
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+    }
+
+    .container-bar p {
+        margin-top: -9px;
+        font-family: RobotoMono-VariableFont;
+        font-size: 9px;
+        color: #0C1541;
+        letter-spacing: 1.3px;
+        animation: type 5s steps(60, end); 
+        white-space: nowrap;
+        overflow: hidden;
+        width: 35rem;
+        margin-left: 5rem;
+    }
+
     #btn-mobile {
         margin-left: 31.2rem;
     }
@@ -1319,6 +1518,45 @@ p {
 }
 
 @media (max-width: 480px){
+
+    .legend {
+        margin-top: 0rem;
+        width: 7rem;
+        margin-left: 9rem;
+        color: rgba(88, 82, 97, 1);
+        font-style: normal;
+    }
+
+    .header-bar {
+        width: 100%;
+        height: 26px;
+        padding: 0;
+        margin-top: -2.3rem;
+        z-index: 4000;
+        background-color: #e4e4e4;
+        overflow: hidden;
+        position: fixed;
+    }
+    
+    .container-bar {
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+    }
+
+    .container-bar p {
+        margin-top: -8px;
+        font-family: RobotoMono-VariableFont;
+        font-size: 8px;
+        color: #0C1541;
+        letter-spacing: 1.3px;
+        animation: type 5s steps(60, end); 
+        white-space: nowrap;
+        overflow: hidden;
+        width: 35rem;
+        margin-left: 2.5rem;
+    }
+    
 
     html, body {
         overflow-x: hidden;
@@ -1606,6 +1844,46 @@ p {
     * {
         max-width: 425px;
     }
+
+    .legend {
+        margin-top: 0rem;
+        width: 7rem;
+        margin-left: 9rem;
+        color: rgba(88, 82, 97, 1);
+        font-style: normal;
+    }
+
+    .header-bar {
+        width: 100%;
+        height: 28px;
+        padding: 0;
+        margin-top: -2.3rem;
+        z-index: 4000;
+        background-color: #e4e4e4;
+        overflow: hidden;
+        position: fixed;
+    }
+    
+    .container-bar {
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+    }
+
+    .container-bar p {
+        margin-top: -8px;
+        font-family: RobotoMono-VariableFont;
+        font-size: 8px;
+        color: #0C1541;
+        letter-spacing: 1.3px;
+        animation: type 5s steps(60, end); 
+        white-space: nowrap;
+        overflow: hidden;
+        width: 10rem;
+        height: 20rem;
+        margin-left: 1.3rem;
+    }
+    
 
     html, body {
         overflow-x: hidden;
